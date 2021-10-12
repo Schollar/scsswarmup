@@ -1,0 +1,11 @@
+@import 'global';
+@import 'header';
+@import 'footer';
+
+#content-grid {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 10px;
+    color: $fontcolor;
+}

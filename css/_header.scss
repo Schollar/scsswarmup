@@ -1,0 +1,9 @@
+#header-grid {
+    display: grid;
+    place-items: center;
+    background-color: $bgcolor;
+
+    >img {
+        max-height: 12.5vh;
+    }
+}

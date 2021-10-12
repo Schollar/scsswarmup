@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+#header-grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: sandybrown;
+}
+
+#header-grid > img {
+  max-height: 12.5vh;
+}
+
+#footer-grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  max-height: 10vh;
+  margin-top: 20px;
+}
+
+#content-grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: 10px;
+  color: purple;
+}
+/*# sourceMappingURL=style.css.map */
